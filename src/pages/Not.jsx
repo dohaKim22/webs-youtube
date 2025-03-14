@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Not = () => {
   return (
-    <div>Not</div>
+    <Main title="없는 페이지" description="없는 페이지입니다.">
+     Not
+    </Main>
   )
 }
 

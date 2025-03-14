@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
-const Movie = () => {
+const Moive = () => {
   return (
-    <div>Movie</div>
+    <Main title="영화 페이지" description="영화 페이지입니다.">
+      Movie
+    </Main>
   )
 }
 
-export default Movie
+export default Moive
