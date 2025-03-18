@@ -8,6 +8,7 @@ const Music = lazy(()=> import ('./pages/Music'));
 const Movie = lazy(()=> import ('./pages/Movie'));
 const Book = lazy(()=> import ('./pages/Book'));
 const Anime = lazy(()=> import ('./pages/Anime'));
+const Point = lazy(()=> import ('./pages/Point.jsx')); //즐겨찾기
 const Port = lazy(()=> import ('./pages/Port'));
 const Youtube = lazy(()=> import ('./pages/Youtube'));
 const Channel = lazy(()=> import ('./pages/Channel'));
@@ -29,10 +30,11 @@ const App = () => {
             <Route path='/movie' element={<Movie/>}/>
             <Route path='/book' element={<Book/>}/>
             <Route path='/anime' element={<Anime/>}/>
+            <Route path='/point' element={<Point/>}/> 
             <Route path='/port' element={<Port/>}/>
             <Route path='/youtube'element={<Youtube/>}/>
             <Route path='/channel/:channelID' element={<Channel/>}/>
-            <Route path='/vido/:videoID' element={<Video/>}/>
+            <Route path='/video/:videoID' element={<Video/>}/>
             <Route path='/search/:searchID' element={<Search/>}/>
             <Route path='/*'element={<Not/>}/>
           </Routes>

@@ -9,6 +9,7 @@ import { FaGithub } from "react-icons/fa";
 import { RiYoutubeLine } from "react-icons/ri";
 import { FaGooglePlus } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
+import { AiFillPushpin } from "react-icons/ai";
 
 
 export const headerMenus =[
@@ -43,10 +44,11 @@ export const headerMenus =[
         src: "/anime"
     },
     {
-        title:"유튜브 사이트",
-        icon: <CiIceCream />,
-        src: "/youtube"
-    }
+        title:"즐겨 찾기",
+        icon: <AiFillPushpin />,
+        src: "/point"
+    },
+ 
 ];
 
 export const searchKeyword=[
