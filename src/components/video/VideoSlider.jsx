@@ -53,7 +53,7 @@ const VideoSlider = ({id, title, videos}) => {
             <SwiperSlide key={key}>
            <div className='video'>
             <div className='video__thumb play__icon'>
-                <Link to={'/video/$(video.videoId'}>
+                <Link to={`/video/$(video.videoId`}>
                   <img src={video.img} alt={video.img}></img>
                 </Link>
             </div>
